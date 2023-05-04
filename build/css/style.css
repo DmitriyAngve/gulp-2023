@@ -313,7 +313,7 @@ body.locked {
   font-size: 23px;
 }
 
-.menu__item-link--button {
+.menu__item-link.menu__item-link--button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid #ffffff;
