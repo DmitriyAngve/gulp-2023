@@ -10,17 +10,16 @@
     z-index: 2;
   }
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+
+.header__container {
+  padding: 30px 320px;
 }
-.logo {
-  a {
-    color: white;
-  }
-}
+
+// .logo {
+//   a {
+//     color: white;
+//   }
+// }
 
 // ========================== [ Menu styles ] ==========================
 .menu {
