@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 43px 32px;
+  //   padding: 43px 32px;
 }
 
 .navbar__icon {
@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 13px;
+  z-index: 2;
 }
 
 .menu {
@@ -17,3 +18,27 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.menu__item-link {
+  font-size: 23px;
+}
+
+.menu__item-link--button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  margin-left: 2rem;
+}
+
+.menu__item:nth-child(1) {
+  margin-right: 110px;
+}
+
+.menu__item:nth-child(2) {
+  margin-right: 150px;
+}
+
+// .menu__item:nth-child(3) {
+//   margin-left: 150px;
+// }

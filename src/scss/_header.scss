@@ -3,9 +3,9 @@
   background-color: $mainColor;
 
   &.fixed {
-    position: fixed;
-    left: 0;
-    top: 0;
+    // position: fixed;
+    left: 320px;
+    top: 30px;
     width: 100%;
     z-index: 2;
   }
@@ -13,6 +13,26 @@
 
 .header__container {
   padding: 30px 320px;
+}
+
+.purple-circle {
+}
+
+.blured-purple {
+  position: absolute;
+  width: 414.9px;
+  height: 414.9px;
+  left: 100.9px;
+  top: -188.98px;
+
+  background-image: linear-gradient(
+    170.98deg,
+    rgba(95, 56, 255, 0.35) 25.59%,
+    rgba(255, 14, 222, 0.35) 100.44%
+  );
+  filter: blur(86px);
+  transform: rotate(11.97deg);
+  z-index: -1;
 }
 
 // .logo {
